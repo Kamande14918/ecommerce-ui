@@ -1,0 +1,22 @@
+// Override Bootstrap Variables here before import Bootstrap
+$primary: #0d6efd;
+$body-bg: #f8f9fa;
+$font-family-base: 'Roboto', sans-serif;
+
+// Import Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Additional styles
+body{
+    font-family: $font-family-base;
+    background-color: $body-bg;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+.footer {
+    background-color: #343a40;
+    color:#fff;
+    padding: 2rem 0;
+}
